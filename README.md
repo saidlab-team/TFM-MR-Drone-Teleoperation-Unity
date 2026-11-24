@@ -53,7 +53,7 @@ each waypoint.
   </tr>
 </table>
 
-▶ **[Full demo video (1:40)](docs/media/demo_full.mp4)**: mesh, planning, validation, take-off, flight, landing and correction.
+▶ **[Full demo video (1:40, MP4, 11 MB, download)](docs/media/demo_full.mp4?raw=true)**: mesh, planning, validation, take-off, flight, landing and correction.
 
 > Footage recorded from the headset during testing. The interface is shown in Spanish.
 

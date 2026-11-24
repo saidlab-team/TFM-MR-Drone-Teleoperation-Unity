@@ -53,7 +53,7 @@ físico, que supervisa a la vista y puede corregir en cada punto.
   </tr>
 </table>
 
-▶ **[Vídeo completo de la demo (1:40)](docs/media/demo_full.mp4)**: malla, planificación, validación, despegue, vuelo, aterrizaje y corrección.
+▶ **[Vídeo completo de la demo (1:40, MP4, 11 MB, descarga)](docs/media/demo_full.mp4?raw=true)**: malla, planificación, validación, despegue, vuelo, aterrizaje y corrección.
 
 > Imágenes grabadas desde las gafas durante las pruebas.
 
