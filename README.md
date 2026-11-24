@@ -10,6 +10,12 @@ each waypoint.
 
 > Master's Thesis · Universidad Carlos III de Madrid (UC3M) · Author: **Jaime Provencio Solís** · 2026
 
+<p align="center">
+  <img src="docs/media/demo_planning.webp" width="640" alt="Route planning in Mixed Reality">
+  <br>
+  <em>Route planning over the real space: confirmed segments in green, the candidate segment in cyan, with its height shown.</em>
+</p>
+
 ---
 
 ## What it does
@@ -31,6 +37,25 @@ each waypoint.
   computer).
 - **Assisted correction.** After each segment, the operator can reposition the drone
   with a visual aid that respects the Tello's minimum movement step (20 cm per axis).
+
+---
+
+## Demo
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/media/demo_mesh.webp" alt="Environment mesh"><br><b>Environment mesh.</b> The headset's scan of the room, used to check the route for collisions.</td>
+    <td width="50%"><img src="docs/media/demo_validation.webp" alt="Segment validation"><br><b>Segment validation.</b> Red: the waypoint is too close to the previous one or to the floor. Pink: the segment collides with the real environment.</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/media/demo_execution.webp" alt="Route execution"><br><b>Execution.</b> The real drone flies the route and stops at each waypoint until the operator chooses: next waypoint, correct position or land.</td>
+    <td width="50%"><img src="docs/media/demo_correction.webp" alt="Assisted correction"><br><b>Assisted correction.</b> A virtual drone appears where the real one should be. The operator drags it onto the real drone (it turns green when the move is valid) and the drone flies back to its planned position.</td>
+  </tr>
+</table>
+
+▶ **[Full demo video (1:40)](docs/media/demo_full.mp4)**: mesh, planning, validation, take-off, flight, landing and correction.
+
+> Footage recorded from the headset during testing. The interface is shown in Spanish.
 
 ---
 

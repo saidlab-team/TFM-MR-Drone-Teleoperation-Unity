@@ -10,6 +10,12 @@ físico, que supervisa a la vista y puede corregir en cada punto.
 
 > Trabajo Fin de Máster · Universidad Carlos III de Madrid (UC3M) · Autor: **Jaime Provencio Solís** · 2026
 
+<p align="center">
+  <img src="docs/media/demo_planning.webp" width="640" alt="Planificación de ruta en Realidad Mixta">
+  <br>
+  <em>Planificación de la ruta sobre el espacio real: tramos confirmados en verde, el tramo candidato en cian y su altura en pantalla.</em>
+</p>
+
 ---
 
 ## ¿Qué hace?
@@ -31,6 +37,25 @@ físico, que supervisa a la vista y puede corregir en cada punto.
   en un ordenador).
 - **Corrección asistida.** Tras cada tramo, el operador puede reposicionar el dron
   con ayuda visual que respeta la resolución mínima de movimiento del Tello (20 cm por eje).
+
+---
+
+## Demo
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/media/demo_mesh.webp" alt="Malla del entorno"><br><b>Malla del entorno.</b> El escaneo de la sala que hacen las gafas, con el que se comprueba si la ruta choca.</td>
+    <td width="50%"><img src="docs/media/demo_validation.webp" alt="Validación de tramos"><br><b>Validación de tramos.</b> Rojo: el punto queda demasiado cerca del anterior o del suelo. Rosa: el tramo choca con el entorno real.</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/media/demo_execution.webp" alt="Ejecución de la ruta"><br><b>Ejecución.</b> El dron real recorre la ruta y se detiene en cada punto hasta que el operador elige: siguiente punto, corregir la posición o aterrizar.</td>
+    <td width="50%"><img src="docs/media/demo_correction.webp" alt="Corrección asistida"><br><b>Corrección asistida.</b> Aparece un dron virtual donde debería estar el real. El operador lo arrastra hasta el dron real (se pone verde cuando el movimiento es válido) y el dron vuelve a su posición planificada.</td>
+  </tr>
+</table>
+
+▶ **[Vídeo completo de la demo (1:40)](docs/media/demo_full.mp4)**: malla, planificación, validación, despegue, vuelo, aterrizaje y corrección.
+
+> Imágenes grabadas desde las gafas durante las pruebas.
 
 ---
 
