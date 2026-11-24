@@ -91,7 +91,7 @@ The overall flow is: **calibrate → plan and validate → simulate → execute 
   *Package Manager*):
   - Meta XR SDK (`com.meta.xr.sdk.all` 85.0.0)
   - Universal Render Pipeline (URP 17.4)
-  - XR Interaction Toolkit 3.4 · OpenXR · XR Management
+  - OpenXR · XR Management
   - ProBuilder
 
 **Hardware**

@@ -87,7 +87,7 @@ El flujo general es: **calibrar → planificar y validar → simular → ejecuta
 - Paquetes principales (se instalan solos al abrir el proyecto, vía *Package Manager*):
   - Meta XR SDK (`com.meta.xr.sdk.all` 85.0.0)
   - Universal Render Pipeline (URP 17.4)
-  - XR Interaction Toolkit 3.4 · OpenXR · XR Management
+  - OpenXR · XR Management
   - ProBuilder
 
 **Hardware**
