@@ -77,7 +77,7 @@ El flujo general es: **calibrar → planificar y validar → simular → ejecuta
 
 1. Clona el repositorio:
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/saidlab-team/TFM-MR-Drone-Teleoperation-Unity.git
    ```
 2. Ábrelo desde **Unity Hub** con la versión `6000.4.3f1`. La primera vez, Unity
    regenerará la carpeta `Library/` (no está en el repositorio, es normal y puede tardar).
