@@ -45,7 +45,7 @@ físico, que supervisa a la vista y puede corregir en cada punto.
 <table>
   <tr>
     <td width="50%"><img src="docs/media/demo_mesh.webp" alt="Malla del entorno"><br><b>Malla del entorno.</b> El escaneo de la sala que hacen las gafas, con el que se comprueba si la ruta choca.</td>
-    <td width="50%"><img src="docs/media/demo_validation.webp" alt="Validación de tramos"><br><b>Validación de tramos.</b> Rojo: el punto queda demasiado cerca del anterior o del suelo. Rosa: el tramo choca con el entorno real.</td>
+    <td width="50%"><img src="docs/media/demo_validation.webp" alt="Validación de tramos"><br><b>Validación de tramos.</b> Rojo: el punto queda demasiado cerca del anterior o del suelo. Rosa: el tramo choca con el entorno real o con elementos virtuales, como las vigas del escenario de prueba. Azul oscuro: el punto queda fuera del <i>geofence</i> (la zona de vuelo permitida).</td>
   </tr>
   <tr>
     <td width="50%"><img src="docs/media/demo_execution.webp" alt="Ejecución de la ruta"><br><b>Ejecución.</b> El dron real recorre la ruta y se detiene en cada punto hasta que el operador elige: siguiente punto, corregir la posición o aterrizar.</td>
@@ -53,7 +53,7 @@ físico, que supervisa a la vista y puede corregir en cada punto.
   </tr>
 </table>
 
-▶ **[Vídeo completo de la demo (1:40, MP4, 11 MB, descarga)](docs/media/demo_full.mp4?raw=true)**: malla, planificación, validación, despegue, vuelo, aterrizaje y corrección.
+▶ **[Vídeo completo de la demo (1:35, MP4, 10 MB, descarga)](docs/media/demo_full.mp4?raw=true)**: malla, planificación, validación, despegue, vuelo, aterrizaje y corrección.
 
 > Imágenes grabadas desde las gafas durante las pruebas.
 

@@ -45,7 +45,7 @@ each waypoint.
 <table>
   <tr>
     <td width="50%"><img src="docs/media/demo_mesh.webp" alt="Environment mesh"><br><b>Environment mesh.</b> The headset's scan of the room, used to check the route for collisions.</td>
-    <td width="50%"><img src="docs/media/demo_validation.webp" alt="Segment validation"><br><b>Segment validation.</b> Red: the waypoint is too close to the previous one or to the floor. Pink: the segment collides with the real environment.</td>
+    <td width="50%"><img src="docs/media/demo_validation.webp" alt="Segment validation"><br><b>Segment validation.</b> Red: the waypoint is too close to the previous one or to the floor. Pink: the segment collides with the real environment or with virtual elements, such as the beams of the test setup. Dark blue: the waypoint is outside the <i>geofence</i> (the allowed flight area).</td>
   </tr>
   <tr>
     <td width="50%"><img src="docs/media/demo_execution.webp" alt="Route execution"><br><b>Execution.</b> The real drone flies the route and stops at each waypoint until the operator chooses: next waypoint, correct position or land.</td>
@@ -53,7 +53,7 @@ each waypoint.
   </tr>
 </table>
 
-▶ **[Full demo video (1:40, MP4, 11 MB, download)](docs/media/demo_full.mp4?raw=true)**: mesh, planning, validation, take-off, flight, landing and correction.
+▶ **[Full demo video (1:35, MP4, 10 MB, download)](docs/media/demo_full.mp4?raw=true)**: mesh, planning, validation, take-off, flight, landing and correction.
 
 > Footage recorded from the headset during testing. The interface is shown in Spanish.
 
