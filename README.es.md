@@ -4,7 +4,7 @@
 
 Aplicación de Realidad Mixta para **Meta Quest** que permite planificar, simular y
 supervisar el vuelo de un dron **DJI Tello** dentro del espacio físico real del
-usuario. El operador coloca puntos de ruta (*waypoints*) en su propia habitación,
+usuario. El operador coloca puntos de ruta (*waypoints*),
 valida que la trayectoria es segura y, después, ejecuta la misión sobre el dron
 físico, que supervisa a la vista y puede corregir en cada punto.
 

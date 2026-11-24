@@ -4,7 +4,7 @@
 
 Mixed Reality application for **Meta Quest** to plan, simulate and supervise the
 flight of a **DJI Tello** drone inside the user's real physical space. The operator
-places waypoints in their own room, checks that the path is safe and then runs the
+places waypoints, checks that the path is safe and then runs the
 mission on the physical drone, which they supervise by sight and can correct at
 each waypoint.
 
